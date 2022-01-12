@@ -41,7 +41,7 @@ Database routing in Django
 
 Django allows hooking into the database routing process using the :code:`DATABASE_ROUTERS` settings.
 
-:code:`DATABASE_ROUTERS` take a list of classes which must implement a few methods. A router class looks like this.
+:code:`DATABASE_ROUTERS` takes a list of classes which must implement a few methods. A router class looks like this.
 
 .. code:: python
 
